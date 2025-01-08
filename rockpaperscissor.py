@@ -29,8 +29,8 @@ scissor = """
 """
 
 # List of choices and their corresponding ASCII art
-choices = [rock, paper, scissor]
-symbol = ["rock", "paper", "scissors"]
+choices = [rock, paper, scissor] #stores the string of this data
+symbol = ["rock", "paper", "scissors"] #stores textual representation
 
 # Get user's choice
 gamer = int(input("Enter 0 for rock, 1 for paper, and 2 for scissors: "))
